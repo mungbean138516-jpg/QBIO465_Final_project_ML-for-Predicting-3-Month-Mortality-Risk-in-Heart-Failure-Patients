@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Tooling caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Local environment files
+.env
+.python-version
+
+# Raw patient-level dataset
+# Remove this line only if you have verified that public redistribution is allowed.
+dat.csv
+
+# TensorFlow / experiment artifacts generated locally
+logs/
+checkpoint
+checkpoint.tmp
+*.ckpt

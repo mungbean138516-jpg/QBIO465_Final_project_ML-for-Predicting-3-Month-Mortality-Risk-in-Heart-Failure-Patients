@@ -1,0 +1,5 @@
+risk_group,observed_3m_mortality_rate,n_patients
+Low,0.0,101
+Medium-low,0.0,100
+Medium-high,0.02,100
+High,0.0594059405940594,101
