@@ -33,3 +33,7 @@ logs/
 checkpoint
 checkpoint.tmp
 *.ckpt
+
+# Local outputs from the model-disagreement extension
+comparison_results/
+run.log

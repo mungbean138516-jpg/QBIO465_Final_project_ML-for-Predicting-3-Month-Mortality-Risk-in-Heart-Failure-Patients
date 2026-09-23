@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "fractions": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "thresholds": {
+    "LR": 0.7000000000000001,
+    "RF": 0.13,
+    "NN": 0.36000000000000004
+  },
+  "interpretation": "Retrospective model flags; not observed treatment or clinical benefit.",
+  "ties": "Common seeded row-key ordering; tie recall bounds are not confidence intervals."
+}
