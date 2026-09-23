@@ -1,0 +1,13 @@
+policy,model_a,model_b,overlap,union,jaccard,disagreement,deaths_both,deaths_only_a,deaths_only_b,deaths_neither
+validation_f1,LR,RF,6,17,0.35294117647058826,11,2,0,0,6
+validation_f1,LR,NN,5,12,0.4166666666666667,7,2,0,0,6
+validation_f1,RF,NN,7,17,0.4117647058823529,10,2,0,0,6
+top_5_percent,LR,RF,12,30,0.4,18,2,0,1,5
+top_5_percent,LR,NN,10,32,0.3125,22,2,0,1,5
+top_5_percent,RF,NN,12,30,0.4,18,2,1,1,4
+top_10_percent,LR,RF,24,58,0.41379310344827586,34,4,0,0,4
+top_10_percent,LR,NN,17,65,0.26153846153846155,48,4,0,1,3
+top_10_percent,RF,NN,24,58,0.41379310344827586,34,4,0,1,3
+top_20_percent,LR,RF,46,116,0.39655172413793105,70,5,0,0,3
+top_20_percent,LR,NN,39,123,0.3170731707317073,84,5,0,0,3
+top_20_percent,RF,NN,51,111,0.4594594594594595,60,5,0,0,3
