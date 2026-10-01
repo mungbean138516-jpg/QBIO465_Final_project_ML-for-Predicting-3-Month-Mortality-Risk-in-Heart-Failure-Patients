@@ -1,0 +1,218 @@
+{
+  "category_counts": {
+    "code": 1,
+    "environment": 1,
+    "figures": 4,
+    "methods": 2,
+    "tables": 16,
+    "validation": 2
+  },
+  "duplicate_groups": [],
+  "empty_files": [],
+  "file_count": 25,
+  "files": [
+    {
+      "bytes": 2003,
+      "categories": [
+        "methods"
+      ],
+      "path": "METHODS.md",
+      "sha256": "026d0a73aba35e85c40a1be2965e0992a9c60983fc5657e6bf5b410f9b2b36a7"
+    },
+    {
+      "bytes": 1242,
+      "categories": [
+        "methods"
+      ],
+      "path": "README.md",
+      "sha256": "9944c20e2bf42f1a35bcefdba4ce062296b69e902ebb4f6f03ba8bcc3a60b480"
+    },
+    {
+      "bytes": 1760,
+      "categories": [
+        "validation"
+      ],
+      "path": "VALIDATION.md",
+      "sha256": "1ff7ab4f15d8ee1d58463313a90a9f0075c8eea251f0d590c8e43a6f518fa2b3"
+    },
+    {
+      "bytes": 351,
+      "categories": [
+        "tables"
+      ],
+      "path": "comparison_settings.json",
+      "sha256": "25de1d36801fb0699ec3b7f1bd056335bed1e927a359a1b17f9002784733d944"
+    },
+    {
+      "bytes": 453,
+      "categories": [
+        "tables"
+      ],
+      "path": "cv_model_performance_summary.csv",
+      "sha256": "d20ffff8d4d86f33208ee0cc60cd1bc0e8cf6940a7eb922ee2e12170a867d06f"
+    },
+    {
+      "bytes": 1644,
+      "categories": [
+        "tables"
+      ],
+      "path": "data_audit.json",
+      "sha256": "c764948a96639fc4db97e86132132e99758a4ed31cdc6e7db63634a500c836fa"
+    },
+    {
+      "bytes": 294,
+      "categories": [
+        "environment"
+      ],
+      "path": "environment.yml",
+      "sha256": "2f1d995228f6445ac631887e424bcd5e098d345b58c159272a8cb52e7fc98bb2"
+    },
+    {
+      "bytes": 79009,
+      "categories": [
+        "figures"
+      ],
+      "path": "feature_set_disagreement.png",
+      "sha256": "55ae2f2a53e4a445f26bb4f08d41c52734bc91cf7a01ca50b25cfb64a9d8eb54"
+    },
+    {
+      "bytes": 585,
+      "categories": [
+        "tables"
+      ],
+      "path": "feature_set_overlap.csv",
+      "sha256": "19504640f8baa83188a64bd6cc706467f334a97a325e2ad49c0ca88c8c955310"
+    },
+    {
+      "bytes": 441,
+      "categories": [
+        "tables"
+      ],
+      "path": "final_model_performance_summary.csv",
+      "sha256": "311898f668d70640a6281127af05cb94bb90c46df8f56db340496a9bd9b10f0c"
+    },
+    {
+      "bytes": 752,
+      "categories": [
+        "tables"
+      ],
+      "path": "model_overlap.csv",
+      "sha256": "8cc7a5cf1bac37e506984cb11f29938b1b4108ff3aeab4f735106b0b4c283613"
+    },
+    {
+      "bytes": 226,
+      "categories": [
+        "tables",
+        "validation"
+      ],
+      "path": "model_roundtrip_validation.json",
+      "sha256": "521e60e91ee828b923c9e19e47341d0004424b95998d81315e0439ad5dcc1e05"
+    },
+    {
+      "bytes": 99512,
+      "categories": [
+        "figures"
+      ],
+      "path": "overlap_by_budget.png",
+      "sha256": "7205930970ca50434ab325019c9d115d212fce8141756f77523d69063adfb6ee"
+    },
+    {
+      "bytes": 2040,
+      "categories": [
+        "tables"
+      ],
+      "path": "paired_bootstrap_intervals.csv",
+      "sha256": "51f34686ea8828eb174eb9434e4eb020dc0aa1822d1df2d7978f0e42eb76cce9"
+    },
+    {
+      "bytes": 157,
+      "categories": [
+        "tables"
+      ],
+      "path": "ranking_summary.csv",
+      "sha256": "27ad046f763f0c9c2a676b4d4e7e6de27a03b106fb9f7eeda4ec4d8f660d2aab"
+    },
+    {
+      "bytes": 1006,
+      "categories": [
+        "tables"
+      ],
+      "path": "reanalysis_settings.json",
+      "sha256": "b725f2b0ba1325c0c1d60a5e86136aef8359397964d6c6ebd482aa9aaa6bdd76"
+    },
+    {
+      "bytes": 71010,
+      "categories": [
+        "figures"
+      ],
+      "path": "recall_uncertainty.png",
+      "sha256": "ee2d3d96dcda5bff09206096f5543ccc3d4bcb46368d21fe607e35d5047d85f4"
+    },
+    {
+      "bytes": 756,
+      "categories": [
+        "code"
+      ],
+      "path": "reproduce.py",
+      "sha256": "99a65294e503fcd7126e79e941c63e24a9f47109955bf11c2be3899a42718766"
+    },
+    {
+      "bytes": 1471,
+      "categories": [
+        "tables"
+      ],
+      "path": "screening_summary.csv",
+      "sha256": "b403ea8d2ada2f25dd288da0d78b02b3b7fd54d3447b42aa91291b4814e887db"
+    },
+    {
+      "bytes": 706,
+      "categories": [
+        "tables"
+      ],
+      "path": "screening_uncertainty.csv",
+      "sha256": "57c34dfa6890f2b7b906173df10ebf20815c39ca4aae9a9b74ef23286e8d7c35"
+    },
+    {
+      "bytes": 745,
+      "categories": [
+        "tables"
+      ],
+      "path": "timing_sensitivity_overlap.csv",
+      "sha256": "207b9a72f7968e5085e65a9eeb5462f62c0c9bea6db0a1553029049b150e8427"
+    },
+    {
+      "bytes": 158,
+      "categories": [
+        "tables"
+      ],
+      "path": "timing_sensitivity_ranking.csv",
+      "sha256": "8048b45c24188e4da5842b6876d864d44ad8483896e049f6f6aeeddbfbb898d6"
+    },
+    {
+      "bytes": 1449,
+      "categories": [
+        "tables"
+      ],
+      "path": "timing_sensitivity_screening.csv",
+      "sha256": "3e39abea183bf9d26a07311cfc9be9cc305be6a7216135597fd52f683b1cf9ba"
+    },
+    {
+      "bytes": 4409,
+      "categories": [
+        "tables"
+      ],
+      "path": "timing_sensitivity_settings.json",
+      "sha256": "fa2b27065e4fd3540a9065d9a99249e59ac0db9cf359f5981b3a903302256135"
+    },
+    {
+      "bytes": 90117,
+      "categories": [
+        "figures"
+      ],
+      "path": "timing_sensitivity_tradeoffs.png",
+      "sha256": "ade3da20ae916e87148cdec8da6a4a9f65a69e60aadb79c4fb6e6202d5976fa6"
+    }
+  ],
+  "missing_required_categories": [],
+  "root": "advisor_update_2026-10-01"
+}

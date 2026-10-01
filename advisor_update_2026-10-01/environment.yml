@@ -1,0 +1,14 @@
+name: qbio465-advisor-update
+dependencies:
+  - python=3.10.20
+  - pip
+  - pip:
+      - numpy==2.2.6
+      - pandas==2.3.3
+      - scikit-learn==1.7.2
+      - scipy==1.15.3
+      - tensorflow==2.21.0
+      - keras==3.12.1
+      - joblib==1.5.3
+      - matplotlib==3.10.8
+      - ipython==8.30.0

@@ -1,0 +1,9 @@
+{
+  "validated_rows": 402,
+  "all_models_match_exported_scores_with_atol": 1e-06,
+  "maximum_absolute_score_difference": {
+    "LR": 1.1102230246251565e-16,
+    "RF": 9.8879238130678e-17,
+    "NN": 1.967010498926669e-08
+  }
+}
