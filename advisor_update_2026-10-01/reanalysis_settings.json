@@ -1,0 +1,24 @@
+{
+  "base_commit": "18cbbfb0614535e278ac36a754b39fd7ec13dda9",
+  "data_sha256": "22a5f78366657d2f663d85d7a0fc109d66f5d98a9afc94ef353e734c408a8d31",
+  "python": "3.10.20",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "tensorflow": "2.21.0",
+    "keras": "3.12.1",
+    "joblib": "1.5.3",
+    "matplotlib": "3.10.8",
+    "scipy": "1.15.3"
+  },
+  "training_command": "/Users/moyingli/miniconda3/envs/qbio465/bin/python run_comparison.py",
+  "summary_command": "/Users/moyingli/miniconda3/envs/qbio465/bin/python summarize_advisor_update.py",
+  "training_seed": 42,
+  "bootstrap_seed": 20261001,
+  "bootstrap_replicates_requested": 2000,
+  "bootstrap_replicates_valid": 1999,
+  "bootstrap_scope": "Paired resampling of fixed test rows, score models held fixed; equal-capacity top-k reranked per sample; exploratory only.",
+  "test_predictions_sha256": "0ffeb920f6c25dd1ddb8a33634075b450812b615ae27973dfef70d802c189792",
+  "patient_level_outputs_public": false
+}

@@ -2,6 +2,8 @@
 
 Status: real-data run completed on 2026-09-23. See comparison_summary/RESULTS_2026-09-23.md.
 
+October 1 follow-up: [teacher progress report](TEACHER_PROGRESS_REPORT_2026-10-01.md) records the source and timing audit, conditional uncertainty, a separate local rerun, and an exploratory restricted-feature sensitivity. Its new aggregates live in [advisor_update_2026-10-01/](advisor_update_2026-10-01/); September's published aggregate files remain unchanged.
+
 The Oxford meeting emphasizes the technical workflow and how choosing models and evaluation criteria changes judgments about people. The meeting did not prescribe top-k percentages. The 5%, 10%, and 20% budgets below are our concrete exploratory design to investigate that question.
 
 ## Run
@@ -29,7 +31,7 @@ Top-k selects exactly ceil(n × fraction) rows, independent of true outcomes. Ti
 - Only eight deaths were in the historical test split. Differences of one death change recall by 12.5 percentage points. No reliable superiority or significance claim follows automatically.
 - Do not interpret uncalibrated prediction scores as verified absolute clinical risks.
 - Different flags establish model disagreement. They do not demonstrate actual treatment consequences, causal effects, improved survival, or effects on user trust.
-- Data provenance, feature measurement timing, repeated patients, follow-up completeness, and cumulative mortality label consistency still require source-data verification.
+- The cohort source, broad admission/day-one measurement categories, and within-table cumulative mortality label consistency have now been checked against the [dataset description](https://physionet.org/content/heart-failure-zigong/1.3/), the [source paper](https://www.nature.com/articles/s41597-021-00835-9), and local aggregate audits. Exact local release identity, per-feature timestamps, repeated-admission linkage, and follow-up completeness remain unresolved; see the October report.
 - The revised results will differ from historical results because tuning no longer uses the later validation partition. Do not combine the two runs.
 - Summary evaluation in code uses average precision; historical `PR_AUC` column names denote AP, not trapezoidal integration.
 - Patient-level outputs and the row-position manifest are ignored by git. Analysis keys are only within-run identifiers. No raw dataset or patient-level predictions are committed.

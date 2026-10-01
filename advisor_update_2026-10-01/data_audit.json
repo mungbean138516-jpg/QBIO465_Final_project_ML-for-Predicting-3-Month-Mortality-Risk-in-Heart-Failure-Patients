@@ -1,0 +1,44 @@
+{
+  "input_sha256": "22a5f78366657d2f663d85d7a0fc109d66f5d98a9afc94ef353e734c408a8d31",
+  "rows": 2008,
+  "raw_columns": 167,
+  "three_month_deaths": 42,
+  "death_counts": {
+    "28_days": 37,
+    "3_months": 42,
+    "6_months": 57
+  },
+  "missing_mortality_labels": {
+    "28_days": 0,
+    "3_months": 0,
+    "6_months": 0
+  },
+  "duplicate_no": 0,
+  "duplicate_rows_without_ids": 0,
+  "nonmonotone_mortality_labels": {
+    "28_to_3_months": 0,
+    "3_to_6_months": 0
+  },
+  "death_day_available": 44,
+  "three_month_positive_without_death_day": 1,
+  "death_day_nonmissing_three_month_negative": 3,
+  "three_month_negative_death_day_at_most_90": 0,
+  "three_month_negative_death_day_after_90": 3,
+  "six_month_positive_without_death_day": 16,
+  "six_month_negative_death_day_at_most_180": 0,
+  "outcome_during_hospitalization_dead": 11,
+  "discharge_destination_died": 14,
+  "dead_field_disagreement": 7,
+  "outcome_dead_not_three_month_positive": 0,
+  "destination_died_not_three_month_positive": 5,
+  "columns_more_than_80pct_missing": 11,
+  "columns_entirely_missing": 1,
+  "columns_constant_nonmissing": 3,
+  "limits": [
+    "A unique No. is not proof of unique patients across hospitalizations.",
+    "Nonmissing binary labels do not prove complete follow-up or exclude unobserved deaths.",
+    "No per-feature timestamps are present, so admission-time availability is not verified for every retained feature.",
+    "A raw-file hash alone does not identify the exact PhysioNet release or confirm license conditions.",
+    "Two discharge-related death fields disagree; the mortality label cannot be adjudicated from this CSV alone."
+  ]
+}

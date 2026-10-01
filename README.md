@@ -1,5 +1,7 @@
 # QBIO465 Final Project: Machine Learning for Predicting 3-Month Mortality Risk in Heart Failure Patients
 
+**October 2026 advisor update:** See [the teacher-facing progress report](TEACHER_PROGRESS_REPORT_2026-10-01.md) and [aggregate-only update bundle](advisor_update_2026-10-01/). The results below describe the historical course run; the September model-disagreement extension and October timing sensitivity are documented separately. The underlying research dataset is described publicly by [Zhang et al.](https://www.nature.com/articles/s41597-021-00835-9), while current [PhysioNet file access](https://physionet.org/content/heart-failure-zigong/1.3/) requires a data-use agreement. Keep the local CSV and patient-level predictions out of Git.
+
 ## Overview
 
 This repository contains a QBIO 465 final project focused on predicting **3-month mortality risk** in hospitalized heart failure patients using structured clinical data.
